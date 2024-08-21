@@ -16,7 +16,7 @@ connectDB();
 
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://amazon-clone.vercel.app"],
+  origin: ["http://localhost:3000", "https://amazon-clone-full-stack.vercel.app"],
   methods: ['POST', 'GET', 'HEAD', 'PUT', 'DELETE'],
   credentials: true
 }));
